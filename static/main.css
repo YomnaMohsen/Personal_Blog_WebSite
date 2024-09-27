@@ -71,6 +71,11 @@ nav a:hover {
 .col-row {
     grid-template-columns: 250px 250px; 
     grid-template-rows: 220px 220px;
+    grid-template-areas: 
+    "main  sd"
+    "main  sd"
+    "footer footer"
+    ;
 }
 /*photos*/
 .photo-box {
@@ -88,6 +93,15 @@ nav a:hover {
     height: 300px;
 }
 
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sd;
+}
+.footer {
+    grid-area: footer;
+}
 
 .grid-item h2 {
     color: #2a5d68;
@@ -108,11 +122,7 @@ nav a:hover {
     border: 1px solid #000;
     text-decoration: none;
 }
-.areas {
-    grid-template-areas: 
-    "main" "main"
-    "content" "content";
-}
+
 
 /*media-query*/
 @media (max-width :900px) {
