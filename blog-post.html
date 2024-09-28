@@ -7,10 +7,66 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
       name="viewport"
     />
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="static/main.css">
   </head>
   <body>
+    <!--header-->
+    <div>
+      <nav>
+        <p class="logo">My Learning Journey Blog </p>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#follow">Follow</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--end of header-->
+    <section class="grid-container col-row">
+      <div class="nested-grid">
+        <div class="grid-item">
+          <img src='static/images/post1.jpg' class="photo-box">
+          <h2>After Graduation</h2>
+          <span><i class="far fa-calendar"></i> Sept 26, 2023</span>
+          <span><i class="far fa-clock"></i> 5 min</span>
+          <br>
+          <br>
+          <p>Here , my learning journey started, at this journey I rediscovered new things...</p>
+          <br>
+          <a href="blog-post.html" class="read-button">Read</a>
+        </div>
+      </div>
+      <!--end main content-->
     
+      <!--side bar-->
+      <aside>
+        <div>
+          <span>About</span>
+          <br>
+          <p>A motivated learner who has a passion in discovering new things and make good relationships with like minded
+            people</p>
+        </div>
+        <!--older posts-->
+        <h3>Older Posts</h3>
+        <ul>
+          <li><a href="#">2022</i></a></li>
+          <li><a href="#">2021</a></li>
+          <li><a href="#" id="follow">2020</a></li>
+        </ul>
+        <!--subscribe-->
+        <div class="contact-container">
+          <h3>Subscribe</h3>
+          <br>
+          <form action="">
+            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Email" />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </aside>
+      <!--end side bar-->
+    </section>
+
   </body>
 
 </html>  
