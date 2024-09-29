@@ -1,6 +1,4 @@
 .post-item {
-    border: 0.5px solid gray;
-    background-color: #ebedef;
     padding: 10px;
     margin-left: 8px;
     border-radius: 5px;
@@ -31,7 +29,7 @@
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    top: 65px;
+    top: 55px;
     border-left: 3px solid #7fb9c2;
     position: relative;
 
