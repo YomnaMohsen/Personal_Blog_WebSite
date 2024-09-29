@@ -1,0 +1,48 @@
+.post-item {
+    border: 0.5px solid gray;
+    background-color: #ebedef;
+    padding: 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+    width: 48vw;
+    height: 300px;
+    content: "\201C";
+}
+
+.post-item h1{
+    color: #2a5d68;
+    text-align: center;
+}
+
+.photo-post {
+    width: 65%;
+    height: 85%;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.post-item p {
+    padding-top: 20px;  
+}
+
+.quote {
+    background-color: #d6d7dc;
+    font-style: italic;
+    font-family: cursive;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 65px;
+    border-left: 3px solid #7fb9c2;
+    position: relative;
+
+}
+cite {
+    font-size: 0.8em;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    padding-right: 35px;
+    font-style: oblique;
+}
