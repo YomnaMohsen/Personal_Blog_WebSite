@@ -6,44 +6,42 @@
   <title>My Blog Post</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="static/home.css">
-  <link rel="stylesheet" href="static/blog-post.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
   <!--header-->
-  <div>
-    <nav class="navigation">
-      <p class="logo">My Learning Journey Blog </p>
-      <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#follow">Follow</a></li>
-      </ul>
-    </nav>
-  </div>
+  <section class="grid-container">
+    <header class="header">
+      <nav class="navigation">
+        <p class="logo">LearningBlog </p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#follow">Follow</a></li>
+        </ul>
+      </nav>
+    </header>
   <!--end of header-->
 
   <!--main-content-->
-    <section class="grid-container col-row">
-      <div class="nested-grid">
-        <div class="post-item">
+    <div class="nested-grid">
+      <div class="post-item">
           <h1>After Graduation</h1>
           <p>Here, my learning journey started, at this journey I rediscovered new things in
-          the surrounding world. Where I met new people with similar mindsets.</p>
-          <p>My journey in true learning starts, from finishing my premasters to choose the topic in my masters<br>
-          ending by writng thesis </p>
+            the surrounding world. Where I met new people with similar mindsets.</p>
+          <p>My journey in true learning starts, from finishing my premasters to choose the topic in my masters
+            ending by writng thesis </p>
           <img src='static/images/post1.jpg' class="photo-post">
           <figcaption> Hand holding paper with text</figcaption>
-          <p>A new challenges are yet coming after finishing this journey, some of them are really hard and others are bearable.</p>
+          <p>A new challenges are yet coming after finishing this journey, some of them are really hard and others are bearable.
+          </p>
           <aside class="quote">
             <blockquote>
               Intellectual growth should commence at birth and cease only at death.
               <footer><cite>albert Einstein</cite></footer>
             </blockquote>
           </aside>
-          
-          
         </div>
       </div>
         
@@ -75,11 +73,10 @@
         </form>
       </div>
     </aside>
-    <!--end side bar-->
-  </section>
-<!--footer-->
-<footer>
-  <div class="footer-container">
+ <!--end side bar-->
+
+<footer class="footer">
+  <div>
     <p><i class="fa-regular fa-copyright"></i>Powered by Blogger</p>
     <ul>
       <li><a href="#">Follow Us</a></li>
@@ -88,8 +85,9 @@
       <li><a href="#" id="follow"><i class="fab fa-instagram"></i></a></li>
     </ul>
   </div>
-
 </footer>
+</section>
+
 </body>
 
 </html>

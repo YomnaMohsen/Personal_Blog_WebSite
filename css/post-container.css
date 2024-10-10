@@ -1,37 +1,41 @@
+/*mobile first*/
+
 /*grid */
 .grid-container {
     display: grid;
-    width: 68vw;
+    width: 550px;
     height: 100%;
-    padding: 10px;
-    margin-top: 60px;
     margin-right: 10%;
     margin-left: 14%;
-    margin-bottom: 0px;
-    gap: 100px;
-}
-
-/*rows-cols*/
-.col-row {
-    grid-template-columns: 250px 250px 100px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-areas:
+        "hd hd"
+        "main sd"
+        "main sd"
+        "main sd"
+         "ft ft";
 }
 
 .nested-grid {
     display: grid;
-    width: 50vw;
-    height: 109vh;
-    grid-area: 1/1/3/3;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: 150px 150px;
-    gap: 200px;
+    /*border: 2px solid green;*/
+    width: 300px;
+    height: 102%;
+    margin-top: -25px;
+    grid-area: main;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3,auto);
+    align-content: start;
+    justify-content: start;
+    gap: 8px;
+   
 }
 
 /*photos*/
 .photo-box {
-    width: 90%;
+    width: 80%;
     height: 55%;
-    margin: 1px;
     margin-left: 5px;
 }
 
@@ -41,8 +45,8 @@
     margin-left: 10px;
     border-radius: 5px;
     border: 1px solid gray;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 270px;
 }
 
 
@@ -63,10 +67,13 @@
 }
 
 .read-button {
-    padding: 5px 8px;
-    margin-left: 110px;
+    padding: 6px 8px;
+    margin-left: 100px;
+    margin-top: -10px;
     color: #000;
     border-radius: 5px;
     border: 1px solid #000;
     text-decoration: none;
+    cursor: pointer;
 }
+
